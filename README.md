@@ -39,7 +39,7 @@ Pgvectorscale Vector builds on top of [pgvector](https://github.com/pgvector/pgv
 
 
 
-### 1. Set up Docker environment
+### Set up Docker environment
 
 Using the`docker-compose.yml` file, run the Docker container:
 
@@ -53,13 +53,4 @@ docker ps
 ```
 To manage and inspect the content of your PostgreSQL database tables effectively,
 installing a graphical database management tool like pgAdmin is recommended.
-### 2. Connect to the database using a PostgreSQL GUI client
-
-- Open client
-- Create a new connection with the following details:
-  - Host: localhost
-  - Port: 5432
-  - User: postgres
-  - Password: password
-  - Database: postgres
 
