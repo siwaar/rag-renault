@@ -124,7 +124,8 @@ And it will update the vecstore with the chunks and their embeddings.
 
 
 ## Renault Agent
-For our project, we use the ReAct type of langchain agents
+For our project, we used the ReAct type of langchain agents
+
 ![react](static/react.png)
 
 The ReAct framework enables the agent to:
@@ -133,8 +134,6 @@ The ReAct framework enables the agent to:
 3. Execute those actions using available tools
 4. Observe the results
 5. Reflect on the outcomes to inform further actions
-
-In our case, we implemented 2 major tools :
 
 The Renault Agent is equipped with two major tools:
 
